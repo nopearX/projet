@@ -6,7 +6,7 @@ include '../includes/database.php';
 global $db;
 extract($_POST);
 
-    if(!empty("password") && !empty("cpassword") && !empty("email") && !empty("nom") && !empty("prenom") && !empty("login") && !empty("email")){
+    if(!empty("password") && !empty("cpassword") && !empty("email") && !empty("login") && !empty("email")){
         if($password == $cpassword){
             $options = ['cost' => 12,];
             $hashpass = password_hash($password, PASSWORD_DEFAULT, $options);

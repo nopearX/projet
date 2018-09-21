@@ -5,9 +5,10 @@
     <!-- Float links to the right. Hide them on small screens -->
     <div class="w3-right w3-hide-small">
 
-    <a href="../sendmail/index.php" class="w3-bar-item w3-button">Contact</a>
-    <a href="../page/galerie.php" class="w3-bar-item w3-button">Galerie</a>
-    <!-- <a href="../page/download.php" class="w3-bar-item w3-button">Téléchargement</a> -->
+      <a href="../page/Compte.php" class="w3-bar-item w3-button">Création Compte</a>
+      <a href="../page/Connexion.php" class="w3-bar-item w3-button">Connexion</a>
+      <a href="../sendmail/index.php" class="w3-bar-item w3-button">Contact</a>
+    
 
     </div>
 </div>

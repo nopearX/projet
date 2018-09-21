@@ -3,7 +3,7 @@
     define('HOST', 'db741589090.db.1and1.com');
     define('DB_NAME','db741589090');
     define('USER','dbo741589090');
-    define('PASS','gBKJpZu6wgHp');
+    define('PASS','wm1eTeDk');
 
     try{
      $db = new PDO("mysql:host=" . HOST . ";dbname=" . DB_NAME, USER, PASS);
